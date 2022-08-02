@@ -28,10 +28,11 @@ img {
 
 /* My try */
 
+body{
+  text-align: center;
+}
 .title{
-  display: flex;
-  justify-content: center;
-  margin: 32px;
+  margin-bottom: 32px;
 }
 .plants{
   display: flex;
@@ -40,6 +41,5 @@ img {
 }
 
 .one,.two,.three,.four{
-  text-align: center;
-  width: 200px;
+  max-width: 200px;
 }
