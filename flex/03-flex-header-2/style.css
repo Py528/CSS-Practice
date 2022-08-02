@@ -54,21 +54,19 @@ ul {
 
 .header{
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding: 8px;
 }
 
-.right-links{
-  align-items: center;
+ul{
   display: flex;
-  margin-left: auto;
-  gap: 8px;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
 
-.notifications{
-  height: fit-content;
-}
-
-.links{
-  gap: 8px;
+.left-links, .right-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
