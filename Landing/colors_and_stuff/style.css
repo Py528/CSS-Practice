@@ -67,22 +67,22 @@ body {
   font-weight: bold;
   color: #1f2937;
 }
-.body4{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 24px;
-    padding-left: 12px;
-    background-color: #e5e7eb;
-    color: #1F2937;
-    gap: 8px;
+.body4 {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
+  padding-left: 12px;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  gap: 8px;
 }
 
-.quote-selection-background-color.body{
-    font-weight: 600;
+.quote-selection-background-color.body {
+  font-weight: 600;
 }
-.quote-text.body{
-    font-size: 36px;
-    font-weight: 300;
-    font-style: italic;
-    color: #1F2937;
+.quote-text.body {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
 }
