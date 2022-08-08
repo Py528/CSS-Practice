@@ -1,37 +1,88 @@
+.header {
+  background-color: white;
+}
+.heading {
+  display: flex;
+  padding: 8px;
+  color: rgb(19, 143, 232);
+  font-weight: bold;
+  font-size: xx-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.body2 {
+  background-color: #1f2937;
+  color: white;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
+}
+.bottom {
+  padding: 10px;
+}
+.extra-bold {
+  font-size: 48px;
+  font-weight: bold;
+}
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+.hero-secondary-text.body {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.header-logo-text.body {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+.dark-background-color.body {
+  font-weight: 900;
+}
 
-.header{
-    background-color: white;
+.body3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 0px 20px 12px;
+  font-weight: lighter;
 }
-.heading{
-    display: flex;
-    padding: 8px;
-    color: rgb(19, 143, 232);   
-    font-weight: 900;
-    font-size: xx-large;
-    font-family: 'Baufra';
+
+.body3.one {
+  padding: 0px;
+  padding-bottom: 24px;
 }
-.body2{
-    background-color: #2e2e3e;
-    color: white;
+.body3.two {
+  padding: 0px;
+}
+.button-color.body {
+  color: #3882f6;
+}
+.information-header-text.body {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+}
+.body4{
     display: flex;
     flex-direction: column;
+    padding-bottom: 24px;
+    padding-left: 12px;
+    background-color: #e5e7eb;
+    color: #1F2937;
+    gap: 8px;
 }
-.bottom{
-    padding: 10px;
+
+.quote-selection-background-color.body{
+    font-weight: 600;
 }
-.extra-bold{
-    font-size: 48px;
-    font-weight: bold;    
-}
-html,body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    font-size: 16px;
+.quote-text.body{
+    font-size: 36px;
     font-weight: 300;
-}
-.hero-secondary-text.body{
-    font-size: 18px;
-}
-.header-logo-text.body{
-    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
 }
