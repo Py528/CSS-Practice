@@ -131,7 +131,6 @@ body {
 }
 
 .l{
-  background-color: #3b82f6;
 }
 .footer{
   display: flex;
@@ -140,4 +139,34 @@ body {
   background-color: #1f2937;
   padding: 24px 0px;
   color: white;
+}
+.group{
+  width: 800px;
+  background-color: #3b82f6;
+  display: flex;
+  padding: 48px 64px;
+  justify-content: space-between;
+  margin: 72px;
+  border-radius: 5px;
+}
+
+.CTA{
+  font-size: 18px;
+  font-weight: 900;
+}
+.CTA-body{
+  color: #e5e7eb;
+}
+.Sign-Up2{
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 5px 18px; 
+  border: 2px solid white;
+}
+.r{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
